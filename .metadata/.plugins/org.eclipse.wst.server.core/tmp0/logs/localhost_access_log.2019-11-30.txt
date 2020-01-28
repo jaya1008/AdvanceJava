@@ -1,0 +1,9 @@
+127.0.0.1 - - [30/Nov/2019:12:49:15 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:12:49:17 +0530] "GET /CustomTageDemo/hello.jsp HTTP/1.1" 200 566
+127.0.0.1 - - [30/Nov/2019:12:50:46 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:12:50:47 +0530] "GET /CustomTageDemo/hello.jsp HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:12:53:18 +0530] "GET /CustomTageDemo/index.html HTTP/1.1" 200 249
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:12:53:22 +0530] "GET /CustomTageDemo/hello.jsp?user=jayshree HTTP/1.1" 200 453
+127.0.0.1 - - [30/Nov/2019:12:56:58 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:12:56:59 +0530] "GET /CustomTageDemo/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [30/Nov/2019:12:57:04 +0530] "GET /CustomTageDemo/hello.jsp?user=jayshree HTTP/1.1" 200 470

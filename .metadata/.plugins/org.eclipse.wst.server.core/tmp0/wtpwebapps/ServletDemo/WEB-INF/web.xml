@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>ServletDemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>h1</servlet-name>
+    <servlet-class>com.jayshree.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>h1</servlet-name>
+    <url-pattern>/HelloServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LifeCycleServlet</display-name>
+    <servlet-name>LifeCycleServlet</servlet-name>
+    <servlet-class>com.jayshree.LifeCycleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LifeCycleServlet</servlet-name>
+    <url-pattern>/LifeCycleServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ValidateServlet</display-name>
+    <servlet-name>ValidateServlet</servlet-name>
+    <servlet-class>com.jayshree.ValidateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ValidateServlet</servlet-name>
+    <url-pattern>/ValidateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ForRequestDispatcher</display-name>
+    <servlet-name>ForRequestDispatcher</servlet-name>
+    <servlet-class>com.jayshree.ForRequestDispatcher</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ForRequestDispatcher</servlet-name>
+    <url-pattern>/ForRequestDispatcher</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description></description>
+    <display-name>ForServletContextandConfig</display-name>
+    <servlet-name>ForServletContextandConfig</servlet-name>
+    <servlet-class>com.jayshree.ForServletContextandConfig</servlet-class>
+    <init-param>
+    	<param-name>developerName</param-name>
+    	<param-value>Jayshree Chaudhary</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ForServletContextandConfig</servlet-name>
+    <url-pattern>/ForServletContextandConfig</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>companyName</param-name>
+    <param-value>SevenMentor Pvt Ltd</param-value>
+  </context-param>
+  <context-param>
+    <param-name>addr</param-name>
+    <param-value>Shreenath plaza FC road Pune</param-value>
+  </context-param>
+</web-app>

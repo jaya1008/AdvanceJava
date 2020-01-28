@@ -1,0 +1,9 @@
+127.0.0.1 - - [03/Nov/2019:14:41:29 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [03/Nov/2019:14:41:31 +0530] "GET /ServletDemo/HelloServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [03/Nov/2019:14:41:53 +0530] "GET /ServletDemo/HelloServlet1 HTTP/1.1" 404 1103
+127.0.0.1 - - [03/Nov/2019:15:04:02 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [03/Nov/2019:15:04:02 +0530] "GET /ServletDemo/HelloServlet HTTP/1.1" 200 43
+0:0:0:0:0:0:0:1 - - [03/Nov/2019:15:04:11 +0530] "GET /ServletDemo/HelloServlet HTTP/1.1" 200 43
+0:0:0:0:0:0:0:1 - - [03/Nov/2019:15:05:36 +0530] "GET /ServletDemo/Hello.html HTTP/1.1" 200 216
+0:0:0:0:0:0:0:1 - - [03/Nov/2019:15:05:48 +0530] "GET /ServletDemo/HelloServlet HTTP/1.1" 200 43
+0:0:0:0:0:0:0:1 - - [03/Nov/2019:15:06:45 +0530] "GET /ServletDemo/HelloServlet HTTP/1.1" 200 43

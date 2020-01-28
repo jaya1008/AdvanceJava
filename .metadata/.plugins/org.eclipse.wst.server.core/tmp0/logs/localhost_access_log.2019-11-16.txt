@@ -1,0 +1,13 @@
+127.0.0.1 - - [16/Nov/2019:13:34:41 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:34:42 +0530] "GET /SessionTrackingDemos/Login.html HTTP/1.1" 200 339
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:34:49 +0530] "GET /SessionTrackingDemos/ValidateServlet?user=sdfsdf&pass=sdfsdf HTTP/1.1" 200 18
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:35:01 +0530] "GET /SessionTrackingDemos/ValidateServlet?user=jayshree&pass=jay@123 HTTP/1.1" 200 83
+127.0.0.1 - - [16/Nov/2019:13:41:09 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:41:09 +0530] "GET /SessionTrackingDemos/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:41:20 +0530] "GET /SessionTrackingDemos/ValidateServlet?user=jayshree&pass=jay@123 HTTP/1.1" 200 194
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:41:27 +0530] "GET /SessionTrackingDemos/ViewAllBooksServlet HTTP/1.1" 200 80
+127.0.0.1 - - [16/Nov/2019:13:42:39 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:42:49 +0530] "GET /SessionTrackingDemos/ValidateServlet?user=jayshree&pass=jay@123 HTTP/1.1" 200 197
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:43:15 +0530] "GET /SessionTrackingDemos/ViewAllBooksServlet HTTP/1.1" 200 80
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:43:27 +0530] "GET /SessionTrackingDemos/LogoutServlet HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [16/Nov/2019:13:43:32 +0530] "GET /SessionTrackingDemos/ViewAllBooksServlet HTTP/1.1" 200 76
